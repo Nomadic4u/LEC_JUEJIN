@@ -1,0 +1,305 @@
+2024-11-22 00:26:24.706  INFO 14964 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 14964 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 00:26:24.709  INFO 14964 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 00:26:26.241  INFO 14964 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 00:26:26.258  INFO 14964 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 00:26:26.349  INFO 14964 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 0 Redis repository interfaces.
+2024-11-22 00:26:27.109  WARN 14964 --- [main] (system) ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'accountDetailsMapper' defined in file [C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes\com\example\mapper\AccountDetailsMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+2024-11-22 00:26:27.123  INFO 14964 --- [main] (system) .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-22 00:26:27.175 ERROR 14964 --- [main] (system) o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'accountDetailsMapper' defined in file [C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes\com\example\mapper\AccountDetailsMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.BackendApplication.main(BackendApplication.java:10)
+
+2024-11-22 00:30:54.913  INFO 32520 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 32520 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 00:30:54.915  INFO 32520 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 00:30:56.214  INFO 32520 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 00:30:56.217  INFO 32520 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 00:30:56.275  INFO 32520 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2024-11-22 00:30:56.711  WARN 32520 --- [main] (system) ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'accountDetailsMapper' defined in file [C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes\com\example\mapper\AccountDetailsMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+2024-11-22 00:30:56.725  INFO 32520 --- [main] (system) .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-22 00:30:56.774 ERROR 32520 --- [main] (system) o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'accountDetailsMapper' defined in file [C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes\com\example\mapper\AccountDetailsMapper.class]: Invalid value type for attribute 'factoryBeanObjectType': java.lang.String
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:857)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:743)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:735)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:152)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:115)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.BackendApplication.main(BackendApplication.java:12)
+
+2024-11-22 00:34:30.003  INFO 17984 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 17984 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 00:34:30.005  INFO 17984 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 00:34:31.051  INFO 17984 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 00:34:31.055  INFO 17984 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 00:34:31.095  INFO 17984 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2024-11-22 00:34:31.937  INFO 17984 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 00:34:31.938  INFO 17984 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 00:34:31.944  INFO 17984 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 00:34:31.955  INFO 17984 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 00:34:31.956  INFO 17984 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 00:34:32.113  INFO 17984 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 00:34:32.114  INFO 17984 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2062 ms
+2024-11-22 00:34:33.314  WARN 17984 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 00:34:33.384  WARN 17984 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 00:34:33.384  WARN 17984 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 00:34:33.544  INFO 17984 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-22 00:34:34.805  INFO 17984 --- [main] (system) com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e9d721
+2024-11-22 00:34:34.809  INFO 17984 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-22 00:34:35.294  INFO 17984 --- [main] (system) com.example.config.MinioConfiguration    : Init minio client...
+2024-11-22 00:34:35.515  WARN 17984 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.StoreImage".
+2024-11-22 00:34:35.516  WARN 17984 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.StoreImage ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 00:34:36.104  INFO 17984 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25e24908, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2941631f, org.springframework.security.web.context.SecurityContextHolderFilter@22ea6051, org.springframework.security.web.header.HeaderWriterFilter@6a261998, org.springframework.security.web.authentication.logout.LogoutFilter@fa689db, com.example.filter.JwtAuthenticationFilter@49c83262, com.example.filter.RequestLogFilter@5834198f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15aaf7b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21b2579d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44df834c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6130a6f5, org.springframework.security.web.session.SessionManagementFilter@49770ef9, org.springframework.security.web.access.ExceptionTranslationFilter@4c6eaa65, org.springframework.security.web.access.intercept.AuthorizationFilter@430db481]
+2024-11-22 00:34:36.597  WARN 17984 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 00:34:36.719  INFO 17984 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 00:34:36.722  INFO 17984 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 00:34:37.666  INFO 17984 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#40538370:0/SimpleConnection@1016b44e [delegate=amqp://root@111.231.7.198:5672/mail, localPort=65053]
+2024-11-22 00:34:38.941  INFO 17984 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 9.52 seconds (process running for 10.312)
+2024-11-22 00:34:39.626  INFO 17984 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 00:34:40.020  INFO 17984 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-11-22 00:34:40.115  INFO 17984 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-22 00:34:40.804  INFO 17984 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-22 10:27:39.490  INFO 27632 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 27632 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 10:27:39.492  INFO 27632 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 10:27:40.139  INFO 27632 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 10:27:40.142  INFO 27632 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 10:27:40.165  INFO 27632 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-11-22 10:27:40.641  INFO 27632 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 10:27:40.641  INFO 27632 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 10:27:40.645  INFO 27632 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 10:27:40.658  INFO 27632 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 10:27:40.658  INFO 27632 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 10:27:40.750  INFO 27632 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 10:27:40.750  INFO 27632 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1232 ms
+2024-11-22 10:27:41.426  WARN 27632 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 10:27:41.459  WARN 27632 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 10:27:41.460  WARN 27632 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 10:27:41.518  INFO 27632 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-22 10:27:42.091  INFO 27632 --- [main] (system) com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57cff804
+2024-11-22 10:27:42.093  INFO 27632 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-22 10:27:42.232  INFO 27632 --- [main] (system) com.example.config.MinioConfiguration    : Init minio client...
+2024-11-22 10:27:42.337  WARN 27632 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.StoreImage".
+2024-11-22 10:27:42.337  WARN 27632 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.StoreImage ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 10:27:42.631  INFO 27632 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38394e76, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37d3e740, org.springframework.security.web.context.SecurityContextHolderFilter@2ad6aeb8, org.springframework.security.web.header.HeaderWriterFilter@25e24908, org.springframework.security.web.authentication.logout.LogoutFilter@478cc5f1, com.example.filter.JwtAuthenticationFilter@3ef0e576, com.example.filter.RequestLogFilter@18989e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8ab231, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7772ec28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8dc3019, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5afba80c, org.springframework.security.web.session.SessionManagementFilter@6130a6f5, org.springframework.security.web.access.ExceptionTranslationFilter@4930213b, org.springframework.security.web.access.intercept.AuthorizationFilter@32068aef]
+2024-11-22 10:27:42.861  WARN 27632 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 10:27:42.904  INFO 27632 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 10:27:42.906  INFO 27632 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 10:27:43.109  INFO 27632 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2df71be0:0/SimpleConnection@533a27f8 [delegate=amqp://root@111.231.7.198:5672/mail, localPort=62560]
+2024-11-22 10:27:43.387  INFO 27632 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 4.247 seconds (process running for 4.724)
+2024-11-22 10:27:55.714  INFO 27632 --- [http-nio-8080-exec-1] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 10:27:55.715  INFO 27632 --- [http-nio-8080-exec-1] (system) o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-22 10:27:55.716  INFO 27632 --- [http-nio-8080-exec-1] (system) o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-22 10:27:56.282  INFO 27632 --- [http-nio-8080-exec-1] (172614761069023232) com.example.filter.RequestLogFilter      : 请求URL: "/api/auth/login" (POST) | 远程IP地址: 0:0:0:0:0:0:0:1 │ 身份: 未验证 | 请求参数列表: {"username":"root","password":"20031213dmy"}
+2024-11-22 10:27:56.823  INFO 27632 --- [http-nio-8080-exec-1] (172614761069023232) com.example.filter.RequestLogFilter      : 请求处理耗时: 555ms | 响应结果: {"code":200,"data":{"expire":"2024-11-25 10:27:56.805","role":"user","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoicm9vdCIsImlkIjozLCJleHAiOjE3MzI1MDE2NzYsImlhdCI6MTczMjI0MjQ3NiwianRpIjoiY2Q3ODYyYTUtMzljOS00NjEwLThmZGQtMzFiZjcxZTEwMDBjIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV91c2VyIl19.IjpQ_UB4J0aCNRGibKsfM5s-DKsw5Buiakz78DjNPe4","username":"root"},"id":172614761069023232,"message":"请求成功"}
+2024-11-22 10:28:01.220  INFO 27632 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 10:28:01.581  INFO 27632 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-11-22 10:28:01.605  INFO 27632 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-22 10:28:02.029  INFO 27632 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-22 10:32:26.364  INFO 29280 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 29280 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 10:32:26.366  INFO 29280 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 10:32:27.097  INFO 29280 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 10:32:27.101  INFO 29280 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 10:32:27.128  INFO 29280 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-11-22 10:32:27.686  INFO 29280 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 10:32:27.686  INFO 29280 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 10:32:27.699  INFO 29280 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 10:32:27.710  INFO 29280 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 10:32:27.710  INFO 29280 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 10:32:27.812  INFO 29280 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 10:32:27.812  INFO 29280 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1412 ms
+2024-11-22 10:32:28.608  WARN 29280 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 10:32:28.637  WARN 29280 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 10:32:28.638  WARN 29280 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 10:32:28.700  INFO 29280 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-22 10:32:29.258  INFO 29280 --- [main] (system) com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3de383f7
+2024-11-22 10:32:29.260  INFO 29280 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-22 10:32:29.387  INFO 29280 --- [main] (system) com.example.config.MinioConfiguration    : Init minio client...
+2024-11-22 10:32:29.520  WARN 29280 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.StoreImage".
+2024-11-22 10:32:29.521  WARN 29280 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.StoreImage ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 10:32:29.860  INFO 29280 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@51097500, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@386f88b3, org.springframework.security.web.context.SecurityContextHolderFilter@8dc3019, org.springframework.security.web.header.HeaderWriterFilter@4e35a219, org.springframework.security.web.authentication.logout.LogoutFilter@613a608e, com.example.filter.JwtAuthenticationFilter@2c9cafa5, com.example.filter.RequestLogFilter@40fe8fd5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5afba80c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71634e64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a08e41b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@662e5590, org.springframework.security.web.session.SessionManagementFilter@14d513ca, org.springframework.security.web.access.ExceptionTranslationFilter@8ad6d29, org.springframework.security.web.access.intercept.AuthorizationFilter@37d3e740]
+2024-11-22 10:32:30.166  WARN 29280 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 10:32:30.219  INFO 29280 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 10:32:30.221  INFO 29280 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 10:32:30.415  INFO 29280 --- [http-nio-8080-exec-1] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 10:32:30.415  INFO 29280 --- [http-nio-8080-exec-1] (system) o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-22 10:32:30.416  INFO 29280 --- [http-nio-8080-exec-1] (system) o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-22 10:32:30.428  INFO 29280 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3a54638b:0/SimpleConnection@533a27f8 [delegate=amqp://root@111.231.7.198:5672/mail, localPort=64795]
+2024-11-22 10:32:30.725  INFO 29280 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 4.797 seconds (process running for 5.416)
+2024-11-22 10:33:35.773  INFO 29280 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 10:33:36.326  INFO 29280 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-11-22 10:33:36.355  INFO 29280 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-22 10:33:36.781  INFO 29280 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-22 10:33:40.693  INFO 8028 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 8028 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 10:33:40.695  INFO 8028 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 10:33:41.317  INFO 8028 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 10:33:41.319  INFO 8028 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 10:33:41.341  INFO 8028 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-11-22 10:33:41.814  INFO 8028 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 10:33:41.815  INFO 8028 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 10:33:41.819  INFO 8028 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 10:33:41.826  INFO 8028 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 10:33:41.827  INFO 8028 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 10:33:41.929  INFO 8028 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 10:33:41.929  INFO 8028 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1206 ms
+2024-11-22 10:33:42.623  WARN 8028 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 10:33:42.652  WARN 8028 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 10:33:42.652  WARN 8028 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 10:33:42.712  INFO 8028 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-22 10:33:43.238  INFO 8028 --- [main] (system) com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f911d24
+2024-11-22 10:33:43.239  INFO 8028 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-22 10:33:43.354  INFO 8028 --- [main] (system) com.example.config.MinioConfiguration    : Init minio client...
+2024-11-22 10:33:43.467  WARN 8028 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.StoreImage".
+2024-11-22 10:33:43.467  WARN 8028 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.StoreImage ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 10:33:43.780  INFO 8028 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@56351c02, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51097500, org.springframework.security.web.context.SecurityContextHolderFilter@68af8288, org.springframework.security.web.header.HeaderWriterFilter@2ad6aeb8, org.springframework.security.web.authentication.logout.LogoutFilter@7ab3f194, com.example.filter.JwtAuthenticationFilter@3b5da0b0, com.example.filter.RequestLogFilter@7ab2ba47, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@37d3e740, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34ab398b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6173863f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@386f88b3, org.springframework.security.web.session.SessionManagementFilter@7772ec28, org.springframework.security.web.access.ExceptionTranslationFilter@3fb0d9de, org.springframework.security.web.access.intercept.AuthorizationFilter@38394e76]
+2024-11-22 10:33:44.023  WARN 8028 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 10:33:44.077  INFO 8028 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 10:33:44.080  INFO 8028 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 10:33:44.282  INFO 8028 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#11c3d22f:0/SimpleConnection@2c7607e5 [delegate=amqp://root@111.231.7.198:5672/mail, localPort=64959]
+2024-11-22 10:33:44.569  INFO 8028 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 4.243 seconds (process running for 4.717)
+2024-11-22 10:33:57.107  INFO 8028 --- [http-nio-8080-exec-1] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 10:33:57.108  INFO 8028 --- [http-nio-8080-exec-1] (system) o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-22 10:33:57.109  INFO 8028 --- [http-nio-8080-exec-1] (system) o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-22 10:34:00.079  INFO 8028 --- [http-nio-8080-exec-1] (system) o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 416 ms
+2024-11-22 11:36:11.511  INFO 8028 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 11:36:12.082  INFO 8028 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-11-22 11:36:12.141  INFO 8028 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-22 11:36:12.572  INFO 8028 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-22 11:36:43.472  INFO 7444 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 7444 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 11:36:43.473  INFO 7444 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 11:36:44.090  INFO 7444 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 11:36:44.093  INFO 7444 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 11:36:44.114  INFO 7444 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-11-22 11:36:44.585  INFO 7444 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 11:36:44.586  INFO 7444 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 11:36:44.589  INFO 7444 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 11:36:44.604  INFO 7444 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 11:36:44.604  INFO 7444 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 11:36:44.701  INFO 7444 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 11:36:44.701  INFO 7444 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1201 ms
+2024-11-22 11:36:45.399  WARN 7444 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 11:36:45.431  WARN 7444 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 11:36:45.431  WARN 7444 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 11:36:45.474  INFO 7444 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-22 11:36:46.030  INFO 7444 --- [main] (system) com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3cc2e3e
+2024-11-22 11:36:46.031  INFO 7444 --- [main] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-22 11:36:46.139  INFO 7444 --- [main] (system) com.example.config.MinioConfiguration    : Init minio client...
+2024-11-22 11:36:46.522  INFO 7444 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a010eec, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@623ded82, org.springframework.security.web.context.SecurityContextHolderFilter@1a1f22f2, org.springframework.security.web.header.HeaderWriterFilter@1abea1ed, org.springframework.security.web.authentication.logout.LogoutFilter@7fa8fff, com.example.filter.JwtAuthenticationFilter@6e73974, com.example.filter.RequestLogFilter@2086d469, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5eff5e4c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e782401, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d035ab6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@180e33b0, org.springframework.security.web.session.SessionManagementFilter@5a9ef32e, org.springframework.security.web.access.ExceptionTranslationFilter@1a05ff8e, org.springframework.security.web.access.intercept.AuthorizationFilter@76219fe]
+2024-11-22 11:36:46.766  WARN 7444 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 11:36:46.811  INFO 7444 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 11:36:46.814  INFO 7444 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 11:36:47.004  INFO 7444 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#38667005:0/SimpleConnection@565030b7 [delegate=amqp://root@111.231.7.198:5672/mail, localPort=54176]
+2024-11-22 11:36:47.274  INFO 7444 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 4.197 seconds (process running for 4.727)
+2024-11-22 11:36:49.356  INFO 7444 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 11:36:50.344  INFO 7444 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-11-22 11:36:50.373  INFO 7444 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-22 11:36:50.788  INFO 7444 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-22 14:03:05.355  INFO 3092 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 3092 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 14:03:05.357  INFO 3092 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 14:03:06.030  INFO 3092 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 14:03:06.033  INFO 3092 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 14:03:06.062  INFO 3092 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-11-22 14:03:06.579  INFO 3092 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 14:03:06.580  INFO 3092 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 14:03:06.593  INFO 3092 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 14:03:06.601  INFO 3092 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 14:03:06.602  INFO 3092 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 14:03:06.701  INFO 3092 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 14:03:06.701  INFO 3092 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1314 ms
+2024-11-22 14:03:07.437  WARN 3092 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 14:03:07.467  WARN 3092 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 14:03:07.467  WARN 3092 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 14:03:07.521  INFO 3092 --- [main] (system) com.example.config.MinioConfiguration    : Init minio client...
+2024-11-22 14:03:07.921  INFO 3092 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@799cf32d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@331ad6eb, org.springframework.security.web.context.SecurityContextHolderFilter@5bcfdaf3, org.springframework.security.web.header.HeaderWriterFilter@2c8f65da, org.springframework.security.web.authentication.logout.LogoutFilter@1260c85e, com.example.filter.JwtAuthenticationFilter@52cb52bd, com.example.filter.RequestLogFilter@2b6262bc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47666b39, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b9b5da5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@709d2a6c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cd6698b, org.springframework.security.web.session.SessionManagementFilter@1f0f92f5, org.springframework.security.web.access.ExceptionTranslationFilter@5fd31df7, org.springframework.security.web.access.intercept.AuthorizationFilter@21780905]
+2024-11-22 14:03:08.176  WARN 3092 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 14:03:08.223  INFO 3092 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 14:03:08.225  INFO 3092 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 14:03:08.492  INFO 3092 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#204b0f07:0/SimpleConnection@61c3d7ac [delegate=amqp://root@111.231.7.198:5672/mail, localPort=51682]
+2024-11-22 14:03:08.780  INFO 3092 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 3.816 seconds (process running for 4.39)
+2024-11-22 14:03:12.519  INFO 3092 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 14:03:12.851  INFO 3092 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-11-22 14:10:08.302  INFO 2768 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 2768 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 14:10:08.304  INFO 2768 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 14:10:08.886  INFO 2768 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 14:10:08.888  INFO 2768 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 14:10:08.917  INFO 2768 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-11-22 14:10:09.358  INFO 2768 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 14:10:09.359  INFO 2768 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 14:10:09.363  INFO 2768 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 14:10:09.369  INFO 2768 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 14:10:09.370  INFO 2768 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 14:10:09.466  INFO 2768 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 14:10:09.467  INFO 2768 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1134 ms
+2024-11-22 14:10:10.100  WARN 2768 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 14:10:10.128  WARN 2768 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 14:10:10.128  WARN 2768 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 14:10:10.429  INFO 2768 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f7b8ae1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c8d8b60, org.springframework.security.web.context.SecurityContextHolderFilter@3be50b2c, org.springframework.security.web.header.HeaderWriterFilter@52bb3dcd, org.springframework.security.web.authentication.logout.LogoutFilter@8d7718e, com.example.filter.JwtAuthenticationFilter@15f2a43f, com.example.filter.RequestLogFilter@6d001fbe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58afecfd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20a4cba7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ed35f24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fa6fb7f, org.springframework.security.web.session.SessionManagementFilter@516037be, org.springframework.security.web.access.ExceptionTranslationFilter@7dc92a06, org.springframework.security.web.access.intercept.AuthorizationFilter@4be7acd9]
+2024-11-22 14:10:10.664  WARN 2768 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 14:10:10.710  INFO 2768 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 14:10:10.713  INFO 2768 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 14:10:10.953  INFO 2768 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#37806be6:0/SimpleConnection@31b67d61 [delegate=amqp://root@111.231.7.198:5672/mail, localPort=59588]
+2024-11-22 14:10:11.278  INFO 2768 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 3.326 seconds (process running for 3.788)
+2024-11-22 14:10:18.729  INFO 2768 --- [http-nio-8080-exec-2] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 14:10:18.730  INFO 2768 --- [http-nio-8080-exec-2] (system) o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-22 14:10:18.731  INFO 2768 --- [http-nio-8080-exec-2] (system) o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-22 14:10:18.753  INFO 2768 --- [http-nio-8080-exec-2] (172670723448508416) com.example.filter.RequestLogFilter      : 请求URL: "/api/auth/login" (POST) | 远程IP地址: 0:0:0:0:0:0:0:1 │ 身份: 未验证 | 请求参数列表: {"username":"root","password":"20031213dmy"}
+2024-11-22 14:10:18.984  INFO 2768 --- [http-nio-8080-exec-2] (172670723448508416) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-22 14:10:19.562  INFO 2768 --- [http-nio-8080-exec-2] (172670723448508416) com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e4eb2d3
+2024-11-22 14:10:19.564  INFO 2768 --- [http-nio-8080-exec-2] (172670723448508416) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-22 14:10:19.812  INFO 2768 --- [http-nio-8080-exec-2] (172670723448508416) com.example.filter.RequestLogFilter      : 请求处理耗时: 1073ms | 响应结果: {"code":200,"data":{"expire":"2024-11-25 14:10:19.795","role":"user","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoicm9vdCIsImlkIjozLCJleHAiOjE3MzI1MTUwMTksImlhdCI6MTczMjI1NTgxOSwianRpIjoiY2M2NDNiNWQtZjI5OS00MjcyLTlhYjktOTk2ZmM4N2VhZjFkIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV91c2VyIl19.Hi-mA-6EUxx8FTWz4reB2tlClUop54uq2tlhlemvr50","username":"root"},"id":172670723448508416,"message":"请求成功"}
+2024-11-22 14:10:39.732  INFO 2768 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 14:10:40.592  INFO 2768 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2024-11-22 14:10:40.613  INFO 2768 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-22 14:10:41.047  INFO 2768 --- [SpringApplicationShutdownHook] (system) com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-22 14:52:18.854  INFO 23316 --- [main] (system) com.example.BackendApplication           : Starting BackendApplication using Java 17.0.11 with PID 23316 (C:\Code\Java\Code\LEC_JUEJIN\backend\target\classes started by 18989 in C:\Code\Java\Code\LEC_JUEJIN)
+2024-11-22 14:52:18.856  INFO 23316 --- [main] (system) com.example.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-11-22 14:52:19.715  INFO 23316 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-22 14:52:19.718  INFO 23316 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-22 14:52:19.747  INFO 23316 --- [main] (system) .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-11-22 14:52:20.352  INFO 23316 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-11-22 14:52:20.353  INFO 23316 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [2.0.7] using APR version [1.7.4].
+2024-11-22 14:52:20.366  INFO 23316 --- [main] (system) o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-11-22 14:52:20.374  INFO 23316 --- [main] (system) o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-22 14:52:20.375  INFO 23316 --- [main] (system) o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-11-22 14:52:20.500  INFO 23316 --- [main] (system) o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-22 14:52:20.501  INFO 23316 --- [main] (system) w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1605 ms
+2024-11-22 14:52:21.384  WARN 23316 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.example.entity.dto.TopicType"
+2024-11-22 14:52:21.424  WARN 23316 --- [main] (system) c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.example.entity.dto.TopicLike".
+2024-11-22 14:52:21.424  WARN 23316 --- [main] (system) c.b.m.core.injector.DefaultSqlInjector   : class com.example.entity.dto.TopicLike ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-11-22 14:52:21.920  INFO 23316 --- [main] (system) o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@686fb58a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c4be45f, org.springframework.security.web.context.SecurityContextHolderFilter@7dc92a06, org.springframework.security.web.header.HeaderWriterFilter@2d5c160e, org.springframework.security.web.authentication.logout.LogoutFilter@20163008, com.example.filter.JwtAuthenticationFilter@52b30054, com.example.filter.RequestLogFilter@4ecd8ab1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4fef4f96, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52bb3dcd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@336070ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4be7acd9, org.springframework.security.web.session.SessionManagementFilter@4e02f17d, org.springframework.security.web.access.ExceptionTranslationFilter@998fbd4, org.springframework.security.web.access.intercept.AuthorizationFilter@f9de1fd]
+2024-11-22 14:52:22.267  WARN 23316 --- [main] (system) ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2024-11-22 14:52:22.326  INFO 23316 --- [main] (system) o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-22 14:52:22.329  INFO 23316 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [111.231.7.198:5672]
+2024-11-22 14:52:23.042  INFO 23316 --- [main] (system) o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3caf5c96:0/SimpleConnection@1859b996 [delegate=amqp://root@111.231.7.198:5672/mail, localPort=62771]
+2024-11-22 14:52:23.453  INFO 23316 --- [main] (system) com.example.BackendApplication           : Started BackendApplication in 5.151 seconds (process running for 5.932)
+2024-11-22 14:52:28.673  INFO 23316 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2024-11-22 14:52:28.754  INFO 23316 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] (system) o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.

@@ -1,0 +1,44 @@
+
+springdoc:
+  paths-to-match: /api/**
+  swagger-ui:
+    operations-sorter: alpha
+spring:
+  mail:
+    host: smtp.163.com
+    username: 18989152637@163.com
+    password: EUMJBGDXOGPXPDOO
+  rabbitmq:
+    addresses: 111.231.7.198
+    port: 5672
+    username: root
+    password: 20031213dmy
+    virtual-host: mail
+  datasource:
+    url: jdbc:mysql://111.231.7.198:3306/lec_juejin
+    username: root
+    password: 20031213dmy
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      port: 6379
+      host: 111.231.7.198
+      database: 2
+      password: 20031213dmy
+  security:
+    jwt:
+      key: 'abcdefghijklmn'
+      expire: 72
+      limit:
+        base: 10
+        upgrade: 300
+        frequency: 30
+    filter:
+      order: -100
+  web:
+    verify:
+      mail-limit: 60
+    cors:
+      origin: '*'
+      credentials: false
+      methods: '*'
